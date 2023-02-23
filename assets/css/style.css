@@ -271,6 +271,20 @@ width: 100%;
         padding: 0;
     }
 
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 px;
+    }
+
     #times > div {
         width: 100%;
         clear: both;
