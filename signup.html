@@ -31,14 +31,16 @@
     </header>
 
     <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="post">
+        <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
             <h2>Let's get you signed up!</h2>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" required>
+            <input class="text-input" type="text" id="fname" name="first_name" required>
+
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" required>
+            <input class="text-input" type="text" id="lname" name="last_name" required>
+
             <label for="email" id="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
+            <input class="text-input" type="email" id="email" name="email_address" required>
 
             <label for="road" id="road">Road</label>
             <input type="radio" id="road" name="running_preference" value="road">
@@ -49,7 +51,7 @@
             <label for="both" id="both">Both</label>
             <input type="radio" id="both" name="running_preference" value="both">
 
-            <input type="submit" value="Let's Run!">
+            <input class="join-button" type="submit" value="Let's Run!">
         </form>
 
     </section>
